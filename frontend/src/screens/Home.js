@@ -9,7 +9,7 @@ export default function Home() {
     const [foodData, setfoodData] = useState([]);
 
     const loadData = async () => {
-        const response = await fetch("https://vercel.com/agnik-mukherjees-projects/canteen/api/foodData", {
+        const response = await fetch("https://canteen-alpha.vercel.app//api/foodData", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
