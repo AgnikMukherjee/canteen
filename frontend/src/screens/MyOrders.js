@@ -7,7 +7,7 @@ export default function MyOrders() {
     useEffect(() => {
         const fetchOrders = async () => {
             try {
-                const response = await fetch("http://localhost:5000/api/myorders", {
+                const response = await fetch("https://vercel.com/agnik-mukherjees-projects/canteen/api/myorders", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"
