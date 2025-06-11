@@ -24,6 +24,13 @@ app.use('/api' , require("./Routes/CreateUser"))
 app.use('/api' , require("./Routes/Displaydata"))
 app.use('/api', require("./Routes/Orders"))
 
+app.get('/', (req, res) => {
+  res.send({
+    activeStatus: true,
+    error : false
+  })
+})
+
 
 app.listen(port, () => {
   console.log(`Canteen app listening on port ${port}`)
