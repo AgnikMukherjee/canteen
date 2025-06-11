@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import Model from '../Model';
 import Cart from '../screens/Cart';
-import  useCart  from './contextreducer';
+import  {useCart}  from './contextreducer';
 export default function Navbar() {
   const navigate = useNavigate();
 
