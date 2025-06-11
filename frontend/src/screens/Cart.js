@@ -16,7 +16,7 @@ if(data.length === 0){
 const handleCheckout = async () => {
     let userEmail = localStorage.getItem("userEmail");
     try {
-        let response = await fetch("http://localhost:5000/api/orders", {
+        let response = await fetch("https://vercel.com/agnik-mukherjees-projects/canteen/api/orders", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
