@@ -22,8 +22,11 @@ export default function Home() {
     }
 
     useEffect(() => {
-        loadData();
-    }, [])
+        loadData().catch(() => {
+            alert("🚀 Server is waking up, please wait a few seconds...");
+        });
+    }, []);
+
 
     return (
         <div >
