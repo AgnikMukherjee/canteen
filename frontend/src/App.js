@@ -1,10 +1,10 @@
 
 import './App.css';
-import Home from './screens/Home';
-import MyOrders from './screens/MyOrders';
+import Home from './screens/Home.js';
+import MyOrders from './screens/MyOrders.js';
 
-import Login from './screens/Login';
-import Signup from './screens/Signup';
+import Login from './screens/Login.js';
+import Signup from './screens/Signup.js';
 import React from "react";
 import '../node_modules/bootstrap-dark-5/dist/css/bootstrap-dark.min.css';
 // import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
