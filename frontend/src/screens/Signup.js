@@ -7,7 +7,7 @@ export default function Signup() {
 
     const handleSubmit = async(e) => {
         e.preventDefault();
-        const responce = await fetch("https://vercel.com/agnik-mukherjees-projects/canteen/api/createuser", {
+        const responce = await fetch("https://canteen-alpha.vercel.app/api/createuser", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
