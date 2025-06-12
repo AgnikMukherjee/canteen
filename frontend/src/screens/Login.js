@@ -6,7 +6,7 @@ export default function Login() {
    let navigate = useNavigate();
       const handleSubmit = async(e) => {
           e.preventDefault();
-          const responce = await fetch("https://canteen-alpha.vercel.app/api/loginuser", {
+          const responce = await fetch("https://canteen-backend-7aj8.onrender.com/api/loginuser", {
               method: "POST",
               headers: {
                   "Content-Type": "application/json"
