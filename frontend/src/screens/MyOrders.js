@@ -7,7 +7,7 @@ export default function MyOrders() {
     useEffect(() => {
         const fetchOrders = async () => {
             try {
-                const response = await fetch("https://canteen-alpha.vercel.app/api/myorders", {
+                const response = await fetch("https://canteen-backend-7aj8.onrender.com/api/myorders", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"
